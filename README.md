@@ -1,4 +1,4 @@
-# Tiny Chess — a chess engine in 3.4 KB of Python
+# Tiny Chess — a chess engine in 2.7 KB of Python
 
 [![make.fun bounty](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01)
 [![rank](https://make.fun/badge/tiny-chess-01/doms99999/tiny-chess-4k/rank.svg)](https://make.fun/bounty/tiny-chess-01)
@@ -6,8 +6,8 @@
 
 An original chess engine written for the make.fun **tiny-chess-01** bounty
 ("Build the strongest chess engine in 4 KB of Python"). `main.py` is the whole
-engine — 3,409 bytes as committed, an lzma-packed payload with its unpacker,
-which the competition rules expressly allow.
+engine — 2,735 bytes as committed, an lzma-packed payload with its unpacker,
+packed with the competition kit's own `makefun compress`, as the rules allow.
 
 Inside the payload (~5.8 KB of golfed Python):
 
